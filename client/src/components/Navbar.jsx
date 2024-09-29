@@ -30,7 +30,10 @@ const Navbar = () => {
                                 >
                                     ثبت نام
                                 </NavLink>
-                                <NavLink to="/auth/login" className={linkClass}>
+                                <NavLink
+                                    to="/auth/login"
+                                    className={linkClass}
+                                >
                                     ورود
                                 </NavLink>
                             </div>

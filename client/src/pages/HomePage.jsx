@@ -1,11 +1,9 @@
 import React from "react";
-import Navbar from "../components/Navbar";
 
 const HomePage = () => {
     return (
         <>
-            <Navbar />
-            سلام
+            <h1>hello</h1>
         </>
     );
 };
